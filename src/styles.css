@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+.container {
+    background: #ccc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 96%;
+    min-height: 4rem;
+    background-color: #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header h1 {
+    font-family: "Cinzel", serif;
+    font-size: 4rem;
+}
+
+.red {
+    font-family: "Cinzel", serif;
+    color: #e20d0d;
+}
+
+.yellow {
+    font-family: "Cinzel", serif;
+    color: #f0d817;
+}
+
+.green {
+    font-family: "Cinzel", serif;
+    color: #3eb308;
+}
+
+.header .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.img-container {
+    width: 96%;
+    background: #ccc;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-container .img-caption {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.tribute-info {
+    width: 96%;
+    margin-top: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tribute-info-header {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.tribute-info ul {
+    width: 40%;
+    padding: 5px;
+}
+
+.info {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info-date {
+    font-weight: bold;
+}
+
+.info-text {
+    display: inline;
+}
+
+.final-quote {
+    width: 40%;
+    font-style: italic;
+}
+
+.quote-sign {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+}
