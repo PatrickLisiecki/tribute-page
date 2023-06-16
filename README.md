@@ -14,7 +14,7 @@ To install and run the project locally, follow these steps:
 1. Clone the repository:
 
 ```ps
-git clone https://github.com/PatrickLisiecki/tribute-page
+git clone https://github.com/PatrickLisiecki/ttp-tribute-page
 ```
 
 2. Open the project directory.
